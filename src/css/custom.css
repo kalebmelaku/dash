@@ -1,0 +1,20 @@
+.active {
+  color: #005be2 !important;
+}
+
+.hide-cont, .menu_btn {
+  display: none !important;
+}
+
+@media (max-width: 748px) {
+  .hide {
+    display: block !important;
+  }
+  .mob-view {
+    display: none;
+  }
+  #menu {
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+}/*# sourceMappingURL=custom.css.map */
